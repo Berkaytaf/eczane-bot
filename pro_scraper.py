@@ -1,55 +1,69 @@
+import sys
 import asyncio
 from playwright.async_api import async_playwright
-import pandas as pd # Veriyi Excel/CSV yapmak için
+import pandas as pd
 import random
 
-async def scrape_leads(target_city, target_query):
+# YAML'dan gelen girdileri alıyoruz (Mühendis dokunuşu)
+TARGET_CITY = sys.argv[1] if len(sys.argv) > 1 else "Istanbul"
+TARGET_QUERY = sys.argv[2] if len(sys.argv) > 2 else "Eczane"
+
+async def scrape_leads():
     async with async_playwright() as p:
-        # İnsansı tarayıcı
         browser = await p.chromium.launch(headless=True)
-        context = await browser.new_context(
-            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-        )
+        context = await browser.new_context(user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36")
         page = await context.new_page()
 
-        # Google Maps veya bir rehber sitesi üzerinden arama
-        search_url = f"https://www.google.com/maps/search/{target_query}+in+{target_city}"
-        print(f"🚀 {target_city} için {target_query} avı başladı...")
+        search_url = f"https://www.google.com/maps/search/{TARGET_QUERY}+in+{TARGET_CITY}"
+        print(f"🚀 {TARGET_CITY} - {TARGET_QUERY} avı başladı...")
         
         await page.goto(search_url)
-        await page.wait_for_timeout(5000) # Sayfanın oturması için
+        await page.wait_for_timeout(5000)
+
+        # Listeyi yüklemek için kaydır
+        for _ in range(5):
+            await page.mouse.wheel(0, 3000)
+            await asyncio.sleep(2)
 
         leads = []
+        items = await page.query_selector_all("a.hfpxzc") # Tıklanabilir kartlar
         
-        # Sayfayı kaydırarak ilanları yükle (Lead Generation'ın kalbi burası)
-        for _ in range(5): # 5 kere aşağı kaydır (Daha fazla veri için artırabilirsin)
-            await page.mouse.wheel(0, 3000)
-            await page.wait_for_timeout(2000)
+        print(f"📊 {len(items)} işletme bulundu. Detaylar çekiliyor...")
 
-        # Kartları bul ve veriyi çek
-        items = await page.query_selector_all("div[role='article']")
-        
-        for item in items:
+        for index, item in enumerate(items[:20]): # Test için ilk 20, işe göre artırılabilir
             try:
-                # İsim, adres ve telefon seçicileri (Siteye göre güncellenir)
-                name = await item.get_attribute("aria-label")
-                # Detaylı veri için her karta tıklayıp sağ panelden çekmek en temizidir
-                # Ama hızlıca isim ve temel bilgileri alalım:
+                await item.click()
+                await asyncio.sleep(2) # Detay panelinin açılmasını bekle
+
+                # Verileri yakala
+                name = await page.locator("h1.DUwDvf").inner_text()
+                
+                # Adres ve Telefon bazen olmayabilir, hata almamak için try/except
+                try:
+                    address = await page.locator("button[data-item-id='address']").inner_text()
+                except: address = "Yok"
+                
+                try:
+                    phone = await page.locator("button[data-item-id*='phone:tel:']").inner_text()
+                except: phone = "Yok"
+
                 leads.append({
                     "İşletme Adı": name,
-                    "Şehir": target_city,
-                    "Kategori": target_query,
-                    "Durum": "Aktif"
+                    "Telefon": phone,
+                    "Adres": address,
+                    "Şehir": TARGET_CITY,
+                    "Kategori": TARGET_QUERY
                 })
+                print(f"✅ Çekildi: {name}")
             except:
                 continue
 
         await browser.close()
         
-        # VERİYİ TEMİZLE VE EXCEL'E DÖK
+        # VERİYİ EXCEL YAP (Müşterinin istediği temiz format)
         df = pd.DataFrame(leads)
-        df.to_csv("istanbul_eczaneler.csv", index=False, encoding="utf-8-sig")
-        print(f"✅ İşlem Tamam! {len(leads)} adet veri 'istanbul_eczaneler.csv' olarak kaydedildi.")
+        df.to_excel("leads_output.xlsx", index=False) 
+        print(f"🏁 BİTTİ! leads_output.xlsx oluşturuldu.")
 
 if __name__ == "__main__":
-    asyncio.run(scrape_leads("Istanbul", "Eczane"))
+    asyncio.run(scrape_leads())
