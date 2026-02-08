@@ -1,1 +1,702 @@
-[]
+[
+    {
+        "İşletme Adı": "Demir Eczanesi",
+        "Telefon": "\n+90 212 685 16 61",
+        "Adres": "\nAkşemseddin, Doğan Araslı Blv. No:8, 34925 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 17:56"
+    },
+    {
+        "İşletme Adı": "Eczane İstanbul",
+        "Telefon": "\n+90 212 672 33 30",
+        "Adres": "\nAşık Veysel, Süleyman Demirel Cd. No:15, 34000 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 17:57"
+    },
+    {
+        "İşletme Adı": "ARI ECZANESİ",
+        "Telefon": "\n+90 507 290 02 34",
+        "Adres": "\nYeşilkent, Hacı Bayram Veli Cd NO:56/A, 34515 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 17:57"
+    },
+    {
+        "İşletme Adı": "Ayışığı Eczanesi Esenyurt",
+        "Telefon": "\n+90 212 852 66 61",
+        "Adres": "\nAyışığı Halting Sitesi, Barbaros Hayrettin Paşa, 2299. Sk No:13/6, 34522 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 17:57"
+    },
+    {
+        "İşletme Adı": "ESENKENT ECZANESİ",
+        "Telefon": "\n+90 212 401 07 57",
+        "Adres": "\nAşık Veysel mah. Atatürk Bul. No:18j/14 Parkcity Evleri, 34510 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 17:57"
+    },
+    {
+        "İşletme Adı": "Serhan Eczanesi",
+        "Telefon": "Yok",
+        "Adres": "\nSultaniye, Aşık Şenlik Cd. 4 A, 34510 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 17:57"
+    },
+    {
+        "İşletme Adı": "Eczane İyi Yaşam",
+        "Telefon": "\n+90 212 853 34 00",
+        "Adres": "\nPiri Reis, Nazım Hikmet Blv. No:70 D:C, 34151 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 17:57"
+    },
+    {
+        "İşletme Adı": "Bulut Eczanesi",
+        "Telefon": "\n+90 539 564 87 22",
+        "Adres": "\nYeşilkent, Nazım Hikmet Blv. No:49D, 34515 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 17:57"
+    },
+    {
+        "İşletme Adı": "Yeni Hayat Eczanesi",
+        "Telefon": "\n+90 212 530 11 71",
+        "Adres": "\nHürriyet, Albatros Sk. 37/A, 34522 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 17:57"
+    },
+    {
+        "İşletme Adı": "Göksu Eczanesi",
+        "Telefon": "\n+90 212 596 46 06",
+        "Adres": "\ndevlet hastanesi karşısı, Pınar, 19 Mayıs Blv. 58/A, 34517 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 17:57"
+    },
+    {
+        "İşletme Adı": "Ekin Eczanesi",
+        "Telefon": "\n+90 212 450 31 92",
+        "Adres": "\nFatih, 19 Mayıs Blv. No: 61/D, 34513 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 17:57"
+    },
+    {
+        "İşletme Adı": "Mutlu Eczanesi",
+        "Telefon": "\n+90 212 877 28 28",
+        "Adres": "\nSultaniye Mah. Balıkyolu Cad. Zuanka Residance, No:5/D, 34510 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 17:57"
+    },
+    {
+        "İşletme Adı": "Lotus Eczanesi",
+        "Telefon": "\n+90 212 596 10 46",
+        "Adres": "\nÖrnek, Fikri Sönmez Cd. No:23/A, 34517 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 17:58"
+    },
+    {
+        "İşletme Adı": "İNCİRTEPE ECZANESİ",
+        "Telefon": "\n+90 212 450 16 00",
+        "Adres": "\nİncirtepe, Okurlar Cd. 59/A, 34000 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 17:58"
+    },
+    {
+        "İşletme Adı": "Uludağ Eczanesi",
+        "Telefon": "\n+90 212 450 16 00",
+        "Adres": "\nİncirtepe, Okurlar Cd. 59/A, 34000 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 17:58"
+    },
+    {
+        "İşletme Adı": "ECZANE SEVTAP",
+        "Telefon": "\n+90 539 548 60 30",
+        "Adres": "\nOrhan Gazi Mah. Mercedes Bulvarı No:41LH, 34538 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 17:58"
+    },
+    {
+        "İşletme Adı": "Gül Eczane",
+        "Telefon": "\n+90 539 548 60 30",
+        "Adres": "\nOrhan Gazi Mah. Mercedes Bulvarı No:41LH, 34538 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 17:58"
+    },
+    {
+        "İşletme Adı": "BURCU ECZANESİ",
+        "Telefon": "\n+90 539 548 60 30",
+        "Adres": "\nOrhan Gazi Mah. Mercedes Bulvarı No:41LH, 34538 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 17:58"
+    },
+    {
+        "İşletme Adı": "Savra Eczanesi",
+        "Telefon": "\n+90 212 557 57 75",
+        "Adres": "\nSüleymaniye, Ispartakule Cd. NO:91/A, 34510 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 17:58"
+    },
+    {
+        "İşletme Adı": "Büyük Şifa Eczanesi",
+        "Telefon": "Yok",
+        "Adres": "\nPınar, 1240. Sk. No:9 D:1, 34517 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 17:58"
+    },
+    {
+        "İşletme Adı": "BARAM ECZANESİ",
+        "Telefon": "\n+90 212 620 00 55",
+        "Adres": "\nİnönü, Mandıra Cd. No:41/A, 34510 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 17:58"
+    },
+    {
+        "İşletme Adı": "Esenyurt Eczanesi",
+        "Telefon": "\n+90 212 853 41 17",
+        "Adres": "\nMehterçeşme, 1953. Sk. no:53/B, 34510 Beylikdüzü/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 17:58"
+    },
+    {
+        "İşletme Adı": "MEDİNE ECZANESİ",
+        "Telefon": "\n+90 212 620 00 33",
+        "Adres": "\nSultaniye, Balık Yolu Cd. No:11/A, 34517 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 17:59"
+    },
+    {
+        "İşletme Adı": "Eczane Yeni Üstün",
+        "Telefon": "\n+90 212 689 08 26",
+        "Adres": "\nBattalgazi, 34517 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 17:59"
+    },
+    {
+        "İşletme Adı": "Hocaoğlu Eczanesi",
+        "Telefon": "Yok",
+        "Adres": "\nÖrnek, 1351. Sk. No:2, 34517 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 17:59"
+    },
+    {
+        "İşletme Adı": "ELGİN ECZANESİ",
+        "Telefon": "\n+90 540 620 11 33",
+        "Adres": "\nÇınar, 1408. Sk. Numara:26 D:A, 34517 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 17:59"
+    },
+    {
+        "İşletme Adı": "Story Eczanesi",
+        "Telefon": "\n+90 212 854 00 08",
+        "Adres": "\nCumhuriyet, Nazım Hikmet Blv. No:83, 34520 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 17:59"
+    },
+    {
+        "İşletme Adı": "Neşem Eczanesi",
+        "Telefon": "\n+90 212 853 58 37",
+        "Adres": "\nMevlana, 34515 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 17:59"
+    },
+    {
+        "İşletme Adı": "DOĞA ECZANESİ",
+        "Telefon": "\n+90 212 852 15 75",
+        "Adres": "\nCumhuriyet, Nazım Hikmet Blv. No:81/B, 34515 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 17:59"
+    },
+    {
+        "İşletme Adı": "STAR TOWERS ECZANESİ",
+        "Telefon": "\n+90 212 803 29 19",
+        "Adres": "\nNECİP FAZIL KISAKÜREK MH. ÇARŞI SOK NO 1/A STAR TOWERS SİTESİ, 34522 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 17:59"
+    },
+    {
+        "İşletme Adı": "Edanur Eczanesi- Pharmacy- صيدلية - Aптека- داروخانه",
+        "Telefon": "\n+90 212 853 35 89",
+        "Adres": "\nEda Nur Eczanesi, Mehterçeşme, Ufuk Cd. No: 72/A, 34515 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 17:59"
+    },
+    {
+        "İşletme Adı": "Sayın Eczanesi",
+        "Telefon": "\n+90 212 699 31 79",
+        "Adres": "\nEsencan Hastanesi Karşısı, Fatih, 19 Mayıs Blv., 34513 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 17:59"
+    },
+    {
+        "İşletme Adı": "Egenur Eczanesi",
+        "Telefon": "\n+90 212 880 00 34",
+        "Adres": "\nCumhuriyet, Hürriyet Cd. No:9/A, 34515 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 17:59"
+    },
+    {
+        "İşletme Adı": "Tülin Eczanesi",
+        "Telefon": "\n+90 530 784 75 80",
+        "Adres": "\nYeşilkent, 1880. Sk. & Alti File Market Sirasi Fly Garden Residence Alti File Market Sirasi 71-F, 34515 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 17:59"
+    },
+    {
+        "İşletme Adı": "Eczane Hep İstanbul",
+        "Telefon": "\n+90 212 803 20 25",
+        "Adres": "\nZafer Mahallesi Adile Naşit Bulvarı No:58-AAH, 34513 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 18:00"
+    },
+    {
+        "İşletme Adı": "Ailem Eczanesi",
+        "Telefon": "\n+90 212 803 20 25",
+        "Adres": "\nZafer Mahallesi Adile Naşit Bulvarı No:58-AAH, 34513 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 18:00"
+    },
+    {
+        "İşletme Adı": "ESRA ÖZTÜRK ECZANESİ",
+        "Telefon": "\n+90 212 803 20 25",
+        "Adres": "\nZafer Mahallesi Adile Naşit Bulvarı No:58-AAH, 34513 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 18:00"
+    },
+    {
+        "İşletme Adı": "Yusuf Eczanesi",
+        "Telefon": "\n+90 212 690 73 99",
+        "Adres": "\nNamık Kemal, Doğan Araslı Blv. No:37 D:B, 34513 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 18:00"
+    },
+    {
+        "İşletme Adı": "Kuzuyolu Eczanesi",
+        "Telefon": "\n+90 212 690 73 99",
+        "Adres": "\nNamık Kemal, Doğan Araslı Blv. No:37 D:B, 34513 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 18:00"
+    },
+    {
+        "İşletme Adı": "Enerji Eczanesi",
+        "Telefon": "\n+90 212 690 73 99",
+        "Adres": "\nNamık Kemal, Doğan Araslı Blv. No:37 D:B, 34513 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 18:00"
+    },
+    {
+        "İşletme Adı": "Oben Eczanesi",
+        "Telefon": "\n+90 212 852 13 13",
+        "Adres": "\nBeyzade Künefe Yanı, Cumhuriyet, Şehitler Cd. Bulvar Evleri, 34515 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 18:00"
+    },
+    {
+        "İşletme Adı": "Ziynet Şule Eczanesi",
+        "Telefon": "\n+90 212 689 06 36",
+        "Adres": "\nBağlarçeşme, 1208. Sk. No:4, 34522 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 18:00"
+    },
+    {
+        "İşletme Adı": "Yeni Derman ECZANESİ",
+        "Telefon": "\n+90 533 140 60 99",
+        "Adres": "\nAkevler, 1076. Cd. No:6 D:1\\10, 34513 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 18:00"
+    },
+    {
+        "İşletme Adı": "Limon Eczanesi",
+        "Telefon": "\n+90 212 509 14 15",
+        "Adres": "\nYeşilkent, 1953. Sk. No: 6/A, 34510 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 18:00"
+    },
+    {
+        "İşletme Adı": "BAĞLARÇEŞME ECZANESİ",
+        "Telefon": "\n+90 212 628 42 00",
+        "Adres": "\nBağlarçeşme, Bağlar Çeşme Cad. no:18/D, 34517 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 18:00"
+    },
+    {
+        "İşletme Adı": "İnci Eczanesi",
+        "Telefon": "\n+90 212 505 59 59",
+        "Adres": "\nAkevler, Pazaryolu Cd. 116B, 34513 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 18:00"
+    },
+    {
+        "İşletme Adı": "Eczane Erdal",
+        "Telefon": "\n+90 212 596 11 63",
+        "Adres": "\nBağlarçeşme, Bağlar Çeşme Cad. No:39, 34517 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 18:00"
+    },
+    {
+        "İşletme Adı": "ATASOY ECZANESİ/ ATASOY PHARMACY",
+        "Telefon": "\n+90 212 596 11 63",
+        "Adres": "\nBağlarçeşme, Bağlar Çeşme Cad. No:39, 34517 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 18:00"
+    },
+    {
+        "İşletme Adı": "Kayci Eczanesi",
+        "Telefon": "\n+90 212 596 11 63",
+        "Adres": "\nBağlarçeşme, Bağlar Çeşme Cad. No:39, 34517 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 18:00"
+    },
+    {
+        "İşletme Adı": "Özcan Eczanesi",
+        "Telefon": "\n+90 212 596 11 63",
+        "Adres": "\nBağlarçeşme, Bağlar Çeşme Cad. No:39, 34517 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 18:00"
+    },
+    {
+        "İşletme Adı": "Sueda eczanesi",
+        "Telefon": "\n+90 212 596 11 63",
+        "Adres": "\nBağlarçeşme, Bağlar Çeşme Cad. No:39, 34517 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 18:00"
+    },
+    {
+        "İşletme Adı": "SERHAT ECZANESİ",
+        "Telefon": "\n+90 212 852 52 09",
+        "Adres": "\nkatipoğlu apt, Piri Reis, Nazım Hikmet Blv. no:62/d, 34515 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 18:00"
+    },
+    {
+        "İşletme Adı": "Talat Paşa Eczanesi",
+        "Telefon": "\n+90 212 620 66 77",
+        "Adres": "\nTalatpaşa, Fatih Sultan Mehmet Cd. No:52, 34513 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 18:00"
+    },
+    {
+        "İşletme Adı": "Can Eczanesi - Esenyurt",
+        "Telefon": "\n+90 212 690 47 69",
+        "Adres": "\nSaadetdere, Fevzi Çakmak Cd. No. 17/b, 34517 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 18:00"
+    },
+    {
+        "İşletme Adı": "Hafsa Eczanesi",
+        "Telefon": "\n+90 532 120 53 96",
+        "Adres": "\nBeyhill premium sitesi, Piri Reis, Necip Fazıl Kısakürek Cd, 34515 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 18:00"
+    },
+    {
+        "İşletme Adı": "EVRENSEL ECZANESİ",
+        "Telefon": "\n+90 212 596 13 17",
+        "Adres": "\nÇınar, 1408. Sk. NO:19/4, 34517 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 18:01"
+    },
+    {
+        "İşletme Adı": "NEVİN ECZANESİ",
+        "Telefon": "\n+90 530 622 47 91",
+        "Adres": "\nZAFER MAHALLESİ 185. SOKAK BABACAN PREMİUM E BLOK NO: 4 GO, 34513 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 18:01"
+    },
+    {
+        "İşletme Adı": "MERKEZ ECZANESİ ESENYURT",
+        "Telefon": "\n+90 212 620 50 69",
+        "Adres": "\nPınar, 19 Mayıs Blv. NO 50A, 34513 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 18:01"
+    },
+    {
+        "İşletme Adı": "Balıkyolu Eczanesi",
+        "Telefon": "\n+90 212 620 99 44",
+        "Adres": "\nSüleymaniye mahallesi Hacibektaşi Veli caddesi, Bilal-i Habeş Camii Altı 131, D:E, 34513 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 18:01"
+    },
+    {
+        "İşletme Adı": "Ada Eczanesi",
+        "Telefon": "\n+90 212 886 44 50",
+        "Adres": "\nAtatürk, 2241.Sok No: 3/B, 34522 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 18:01"
+    },
+    {
+        "İşletme Adı": "ECZANE SAFİR PARK /Pharmacy / Apotheke / аптека / مقابل / ‎صيدلية /",
+        "Telefon": "\n+90 212 843 30 70",
+        "Adres": "\nCumhuriyet, 1985. Sk. No:7/B, 34515 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 18:01"
+    },
+    {
+        "İşletme Adı": "ELİF ECZANESİ",
+        "Telefon": "\n+90 212 620 24 25",
+        "Adres": "\nİncirtepe, 240. Sk. 43/A, 34510 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 18:01"
+    },
+    {
+        "İşletme Adı": "İSTANBUL GÜNEŞ ECZANESİ",
+        "Telefon": "\n+90 212 590 04 00",
+        "Adres": "\nSultaniye, 322. Sk. No:2, 34510 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 18:01"
+    },
+    {
+        "İşletme Adı": "Bayraktar eczanesi",
+        "Telefon": "\n+90 212 620 82 02",
+        "Adres": "\nSüleymaniye, Ispartakule Cd. 8 A, 34510 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 18:01"
+    },
+    {
+        "İşletme Adı": "En Merkez ECZANESİ",
+        "Telefon": "\n+90 212 806 25 10",
+        "Adres": "\nYenikent, Doğan Araslı Blv. 218C D:4, 34510 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 18:01"
+    },
+    {
+        "İşletme Adı": "Gültekin Eczanesi",
+        "Telefon": "\n+90 212 691 78 15",
+        "Adres": "\nİstiklal, Cumhuriyet Cd 22 / A, 34522 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 18:01"
+    },
+    {
+        "İşletme Adı": "Karlıdağ Eczanesi",
+        "Telefon": "\n+90 552 362 58 52",
+        "Adres": "\nYEŞİLKENT MAH. 2011 SOK. NO:16B/11 ESENYURT/İSTANBUL ÖZEL REYAP HASTANESİ KARŞISI INNOVIA 3 SİTESİ YANI Fİ TOWER SİTESİ DÜKKANLARI, 34515 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 18:01"
+    },
+    {
+        "İşletme Adı": "Şule Aydın Eczanesi",
+        "Telefon": "\n+90 533 130 72 39",
+        "Adres": "\nYenikent, Aşık Şenlik Cd. 87/A, 34510 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 18:01"
+    },
+    {
+        "İşletme Adı": "Şen Eczanesi - Pharmacy",
+        "Telefon": "\n+90 212 596 96 93",
+        "Adres": "\nyakınında, Özel Esencan Hastanesi Acil Kapı Karşısı, Bağlarçeşme, 1168. Sk., 34517 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 18:01"
+    },
+    {
+        "İşletme Adı": "Melis Işık Eczanesi",
+        "Telefon": "\n+90 212 628 42 61",
+        "Adres": "\nTalatpaşa, Fatih Sultan Mehmet Cd., 34513 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 18:01"
+    },
+    {
+        "İşletme Adı": "Esenyurt Melike Eczanesi",
+        "Telefon": "\n+90 212 664 84 98",
+        "Adres": "\nTurgut Özal, Su Yolu Cd. 16/A, 34513 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 18:01"
+    },
+    {
+        "İşletme Adı": "Yeşilyurt Eczanesi",
+        "Telefon": "\n+90 212 706 71 74",
+        "Adres": "\nİncirtepe, Atalay Cd. No: 43B, 34510 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 18:01"
+    },
+    {
+        "İşletme Adı": "İpekli Eczanesi / Pharmacy / Apotheke / аптека / مقابل / ‎صيدلية /",
+        "Telefon": "\n+90 212 852 89 57",
+        "Adres": "\nCrown Residence, Mevlana Mah. Hürriyet Cad, Site Karşısı İnnovia 1 No:16 D:E, 34515 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 18:01"
+    },
+    {
+        "İşletme Adı": "SERHATLI ECZANESİ",
+        "Telefon": "\n+90 552 454 43 34",
+        "Adres": "\nYeşilkent, 2011. Sk. No:16, 34325 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 18:01"
+    },
+    {
+        "İşletme Adı": "Mervenur Eczanesi",
+        "Telefon": "\n+90 212 813 36 43",
+        "Adres": "\nKoza Mahallesi 1638.Sokak Babacan Crown Deluxe Dükkan No: 1A/186, 34538 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 18:01"
+    },
+    {
+        "İşletme Adı": "Karahasan Eczanesi",
+        "Telefon": "Yok",
+        "Adres": "\nBalıkyolu, Balina Cd., 34510 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 18:02"
+    },
+    {
+        "İşletme Adı": "Eczane Akın",
+        "Telefon": "\n+90 212 620 06 35",
+        "Adres": "\nBalıkyolu, Balina Cd., 34510 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 18:02"
+    },
+    {
+        "İşletme Adı": "HEZEN ECZANESİ",
+        "Telefon": "\n+90 212 620 06 35",
+        "Adres": "\nÜçevler, Urfalılar Cd. No:71 D:C, 34513 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 18:02"
+    },
+    {
+        "İşletme Adı": "İpek Eczanesi Esenyurt",
+        "Telefon": "\n+90 212 450 19 53",
+        "Adres": "\nRadius Rezidans Fıstıkçıoğlu Baklavacı ve Akbank Yanı Tabela Durağı, Zafer, Doğan Araslı Blv., 34513 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 18:02"
+    },
+    {
+        "İşletme Adı": "CADDE ECZANESİ",
+        "Telefon": "\n+90 212 423 19 13",
+        "Adres": "\nTurgut Özal, Tonguç Baba Cd. No:18/A, 34513 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 18:02"
+    },
+    {
+        "İşletme Adı": "Lidya Eczanesi",
+        "Telefon": "\n+90 212 758 18 28",
+        "Adres": "\nGarden City, Fatih, Bahçe Yolu Cd. D:2 E1 Blok 28-30K, 34513 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 18:02"
+    },
+    {
+        "İşletme Adı": "Ardıçlı Eczanesi",
+        "Telefon": "\n+90 212 450 19 76",
+        "Adres": "\nSüleymaniye, 781. Sk., 34510 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 18:02"
+    },
+    {
+        "İşletme Adı": "esenyurt ibnisina eczanesi",
+        "Telefon": "\n+90 212 699 09 19",
+        "Adres": "\nÖrnek, Doğan Araslı Blv. No:199 D:a, 34517 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 18:02"
+    },
+    {
+        "İşletme Adı": "Tutku Eczanesi/Pharmacy Tutku",
+        "Telefon": "\n+90 212 877 88 04",
+        "Adres": "\nKoza, 1638. Sk. Garanti Koza Sitesi Burgaz 2A Dükkan 729, 34538 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 18:02"
+    },
+    {
+        "İşletme Adı": "Pozitif Eczanesi",
+        "Telefon": "\n+90 212 853 21 21",
+        "Adres": "\nCumhuriyet, Nazım Hikmet Blv. No: 89/B, 34515 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 18:02"
+    },
+    {
+        "İşletme Adı": "DOĞU ECZANESİ",
+        "Telefon": "\n+90 212 699 34 13",
+        "Adres": "\nDevlet Hastanesi Karşısı Doğu Eczanesi, Pınar, 19 Mayıs Blv. 62/B, 34517 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 18:02"
+    },
+    {
+        "İşletme Adı": "Onur Eczanesi",
+        "Telefon": "\n+90 551 897 99 38",
+        "Adres": "\nAtatürk, 2202. Sk No: 8A, 34522 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 18:02"
+    },
+    {
+        "İşletme Adı": "özüm eczanesi",
+        "Telefon": "\n+90 212 614 98 57",
+        "Adres": "\nHürriyet mah, Adnan Kahveci Blv. no:84, 34517 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 18:02"
+    },
+    {
+        "İşletme Adı": "Bilimer Eczanesi",
+        "Telefon": "Yok",
+        "Adres": "\nBağlarçeşme, 1110. Sk. 3 B, 34517 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 18:03"
+    },
+    {
+        "İşletme Adı": "Önder Eczanesi",
+        "Telefon": "\n+90 212 852 06 72",
+        "Adres": "\nBağlarçeşme, 1110. Sk. 3 B, 34517 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 18:03"
+    },
+    {
+        "İşletme Adı": "SEDA ECZANESİ",
+        "Telefon": "\n+90 212 852 06 72",
+        "Adres": "\nNew Residence altı, Piri Reis, Nazım Hikmet Blv. No:52/D, 34515 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 18:03"
+    },
+    {
+        "İşletme Adı": "Eczane Akbatı",
+        "Telefon": "\n+90 212 397 01 17",
+        "Adres": "\nKoza, 1655. Sk, 34538 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 18:03"
+    },
+    {
+        "İşletme Adı": "Ayazma Eczanesi",
+        "Telefon": "\n+90 212 689 93 91",
+        "Adres": "\nOsmangazi, Büyük Ayazma Cd. No:34, 34522 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 18:03"
+    },
+    {
+        "İşletme Adı": "Özgür Eczanesi",
+        "Telefon": "\n+90 212 813 87 77",
+        "Adres": "\nYenikent, Gazi Osman Paşa Cd. No:8 D:10 B, 34510 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 18:03"
+    },
+    {
+        "İşletme Adı": "Sevinç Şenel Özdemir Eczanesi",
+        "Telefon": "\n+90 212 605 00 16",
+        "Adres": "\nEsenkent, Süleyman Demirel Cd. No:4 D:C, 34510 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 18:03"
+    },
+    {
+        "İşletme Adı": "ECZANE PALALIOĞLU",
+        "Telefon": "\n+90 212 649 63 34",
+        "Adres": "\nCumhuriyet, Nazım Hikmet Blv. 91/1 NO:24, 34515 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 18:03"
+    },
+    {
+        "İşletme Adı": "Kübra Eczanesi",
+        "Telefon": "\n+90 212 689 09 99",
+        "Adres": "\nHürriyet, Pelikan Sk. No:13, 34522 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 18:03"
+    },
+    {
+        "İşletme Adı": "Müge Eczanesi",
+        "Telefon": "\n+90 212 689 30 00",
+        "Adres": "\nİstiklal, 34517 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 18:03"
+    },
+    {
+        "İşletme Adı": "Lokman Hekim Eczanesi",
+        "Telefon": "\n+90 212 450 60 62",
+        "Adres": "\nPınar, 1501. Sk. No: 2A, 34513 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 18:04"
+    },
+    {
+        "İşletme Adı": "Doruk Eczanesi",
+        "Telefon": "\n+90 505 430 06 01",
+        "Adres": "\nYenikent Aile, Süleymaniye Mahallesi Bilal'i Habeş Cami Altı, Ispartakule Cd. No:194 D:1, 34510 Esenyurt/İstanbul, Türkiye",
+        "Bölge": "esenyurt/Istanbul",
+        "Tarih": "2026-02-08 18:04"
+    }
+]
