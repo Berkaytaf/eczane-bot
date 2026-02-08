@@ -31,26 +31,22 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install playwright pandas openpyxl
-          # Linux sunucusunda Playwright'ın çalışması için sistem kütüphanelerini de kuruyoruz:
           playwright install --with-deps chromium
 
       - name: 🤖 Botu Ateşle
-        # Girdileri tırnak içinde gönderiyoruz ki boşluklu isimlerde patlamasın
         run: python pro_scraper.py "${{ github.event.inputs.sehir }}" "${{ github.event.inputs.kategori }}"
 
       - name: 📥 Excel Dosyasını Hazırla (Artifact)
-        # Bot bittiğinde Excel'i sağ üstteki 'Summary' kısmından indirmeni sağlar
         uses: actions/upload-artifact@v4
         with:
           name: ${{ github.event.inputs.sehir }}-${{ github.event.inputs.kategori }}-Listesi
-          path: "*.xlsx"
+          path: leads_output.xlsx # Python kodundaki isimle aynı!
           if-no-files-found: error
 
       - name: 📊 Sonucu Repoya Kaydet
-        # Dosyayı repoda da görmek istersen burası çalışır
         run: |
           git config --global user.name "LeadGenBot"
           git config --global user.email "bot@github.com"
-          git add *.xlsx || echo "Yeni dosya yok"
+          git add leads_output.xlsx || echo "Dosya yok"
           git commit -m "✅ Veri Güncellendi: ${{ github.event.inputs.sehir }}" || echo "Değişiklik yok"
           git push || echo "Push yapılamadı"
