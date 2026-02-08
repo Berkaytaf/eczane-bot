@@ -1,4 +1,52 @@
+name: 🚀 Lead Gen Master (Eczane & İşletme Avcısı)
+
 on:
-  workflow_dispatch: # Bu satır yoksa buton görünmez!
-  schedule:
-    - cron: '0 0 * * *' # Bu da otomatik çalışma ayarı
+  workflow_dispatch:
+    inputs:
+      sehir:
+        description: 'Hangi Şehir? (Örn: Istanbul)'
+        required: true
+        default: 'Istanbul'
+      kategori:
+        description: 'Ne Arıyoruz? (Örn: Eczane, Restoran, HVAC)'
+        required: true
+        default: 'Eczane'
+
+jobs:
+  scrape_job:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Dosyayı repoya geri yazmak için gerekebilir
+      
+    steps:
+      - name: 📂 Kodları Çek
+        uses: actions/checkout@v4
+
+      - name: 🐍 Python Kur
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: 📦 Kütüphaneleri Yükle
+        run: |
+          pip install playwright pandas openpyxl
+          playwright install chromium
+
+      - name: 🤖 Botu Ateşle
+        # Kodun içindeki sys.argv[1] ve sys.argv[2] kısımlarına bu girdileri gönderir
+        run: python pro_scraper.py "${{ github.event.inputs.sehir }}" "${{ github.event.inputs.kategori }}"
+
+      - name: 📊 Sonucu Repoya Kaydet (Opsiyonel)
+        run: |
+          git config --global user.name "LeadGenBot"
+          git config --global user.email "bot@github.com"
+          git add *.xlsx || echo "Dosya bulunamadı"
+          git commit -m "✅ Veri Çekildi: ${{ github.event.inputs.sehir }} - ${{ github.event.inputs.kategori }}" || exit 0
+          git push
+
+      - name: 📥 Excel Dosyasını Hazırla (Artifact)
+        # Bu adım, dosyayı "İndirilebilir" hale getirir. Müşteriye sunarken en iyisi budur!
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ github.event.inputs.sehir }}-${{ github.event.inputs.kategori }}-Listesi
+          path: "*.xlsx"
