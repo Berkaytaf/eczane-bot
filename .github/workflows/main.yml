@@ -16,7 +16,7 @@ jobs:
   scrape_job:
     runs-on: ubuntu-latest
     permissions:
-      contents: write # Dosyayı repoya geri yazmak için gerekebilir
+      contents: write
       
     steps:
       - name: 📂 Kodları Çek
@@ -27,26 +27,30 @@ jobs:
         with:
           python-version: '3.10'
 
-      - name: 📦 Kütüphaneleri Yükle
+      - name: 📦 Kütüphaneleri ve Tarayıcıyı Yükle
         run: |
+          python -m pip install --upgrade pip
           pip install playwright pandas openpyxl
-          playwright install chromium
+          # Linux sunucusunda Playwright'ın çalışması için sistem kütüphanelerini de kuruyoruz:
+          playwright install --with-deps chromium
 
       - name: 🤖 Botu Ateşle
-        # Kodun içindeki sys.argv[1] ve sys.argv[2] kısımlarına bu girdileri gönderir
+        # Girdileri tırnak içinde gönderiyoruz ki boşluklu isimlerde patlamasın
         run: python pro_scraper.py "${{ github.event.inputs.sehir }}" "${{ github.event.inputs.kategori }}"
 
-      - name: 📊 Sonucu Repoya Kaydet (Opsiyonel)
-        run: |
-          git config --global user.name "LeadGenBot"
-          git config --global user.email "bot@github.com"
-          git add *.xlsx || echo "Dosya bulunamadı"
-          git commit -m "✅ Veri Çekildi: ${{ github.event.inputs.sehir }} - ${{ github.event.inputs.kategori }}" || exit 0
-          git push
-
       - name: 📥 Excel Dosyasını Hazırla (Artifact)
-        # Bu adım, dosyayı "İndirilebilir" hale getirir. Müşteriye sunarken en iyisi budur!
+        # Bot bittiğinde Excel'i sağ üstteki 'Summary' kısmından indirmeni sağlar
         uses: actions/upload-artifact@v4
         with:
           name: ${{ github.event.inputs.sehir }}-${{ github.event.inputs.kategori }}-Listesi
           path: "*.xlsx"
+          if-no-files-found: error
+
+      - name: 📊 Sonucu Repoya Kaydet
+        # Dosyayı repoda da görmek istersen burası çalışır
+        run: |
+          git config --global user.name "LeadGenBot"
+          git config --global user.email "bot@github.com"
+          git add *.xlsx || echo "Yeni dosya yok"
+          git commit -m "✅ Veri Güncellendi: ${{ github.event.inputs.sehir }}" || echo "Değişiklik yok"
+          git push || echo "Push yapılamadı"
