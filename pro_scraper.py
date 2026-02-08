@@ -6,22 +6,26 @@ from playwright.async_api import async_playwright
 import pandas as pd
 from datetime import datetime
 
-# Ayarlar
+# --- 3 GİRDİLİ SİSTEM ---
+# main.yml'den gelen: CITY, DISTRICT, QUERY
 CITY = sys.argv[1] if len(sys.argv) > 1 else "Istanbul"
-QUERY = sys.argv[2] if len(sys.argv) > 2 else "Eczane"
+DISTRICT = sys.argv[2] if len(sys.argv) > 2 else ""
+QUERY = sys.argv[3] if len(sys.argv) > 3 else "Eczane"
 DB_FILE = "database.json"
 
 def load_db():
     if os.path.exists(DB_FILE):
-        with open(DB_FILE, "r", encoding="utf-8") as f:
-            return json.load(f)
+        try:
+            with open(DB_FILE, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except: return []
     return []
 
 def generate_dashboard(data):
-    """Verileri şık bir HTML tabloya dönüştürür."""
+    """Verileri şık bir HTML tabloya (GitHub Pages için) dönüştürür."""
+    if not data: return
     df = pd.DataFrame(data)
-    # En yeni eklenen en üstte görünsün
-    if not df.empty and 'Tarih' in df.columns:
+    if 'Tarih' in df.columns:
         df = df.sort_values(by='Tarih', ascending=False)
     
     html_content = f"""
@@ -29,18 +33,23 @@ def generate_dashboard(data):
     <head>
         <title>Lead Gen Dashboard</title>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+        <style>body {{ background: #f4f7f6; }} .card {{ border-radius: 15px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); }}</style>
     </head>
-    <body class="container mt-5">
-        <h2 class="mb-4">🚀 Canlı Veri İndeksi ({len(data)} Kayıt)</h2>
-        <p>Son Güncelleme: {datetime.now().strftime('%Y-%m-%d %H:%M')}</p>
-        <table class="table table-striped table-hover">
-            <thead class="table-dark">
-                <tr><th>İşletme Adı</th><th>Telefon</th><th>Adres</th><th>Tarih</th></tr>
-            </thead>
-            <tbody>
-                {''.join([f"<tr><td>{row['İşletme Adı']}</td><td>{row['Telefon']}</td><td>{row['Adres']}</td><td>{row['Tarih']}</td></tr>" for _, row in df.iterrows()])}
-            </tbody>
-        </table>
+    <body class="container py-5">
+        <div class="card p-4">
+            <h2 class="text-primary mb-0">🚀 Canlı Veri İndeksi</h2>
+            <p class="text-muted">Toplam Kayıt: {len(data)} | Son Güncelleme: {datetime.now().strftime('%d.%m.%Y %H:%M')}</p>
+            <div class="table-responsive">
+                <table class="table table-hover mt-3">
+                    <thead class="table-dark">
+                        <tr><th>İşletme Adı</th><th>Telefon</th><th>Adres</th><th>Bölge</th><th>Tarih</th></tr>
+                    </thead>
+                    <tbody>
+                        {''.join([f"<tr><td>{row.get('İşletme Adı','-')}</td><td>{row.get('Telefon','-')}</td><td>{row.get('Adres','-')}</td><td>{row.get('Bölge','-')}</td><td>{row.get('Tarih','-')}</td></tr>" for _, row in df.iterrows()])}
+                    </tbody>
+                </table>
+            </div>
+        </div>
     </body>
     </html>
     """
@@ -48,41 +57,81 @@ def generate_dashboard(data):
         f.write(html_content)
 
 async def scrape_google_maps(page, existing_names):
-    # (Mevcut Google Maps kodun buraya gelecek - Optimize edilmiş hali aşağıda)
+    """Google Maps'ten derinlemesine veri çeker."""
     results = []
-    search_url = f"https://www.google.com/maps/search/{QUERY}+in+{CITY}"
+    # Nokta atışı arama: "Eczane in Kadikoy Istanbul"
+    search_query = f"{QUERY} in {DISTRICT} {CITY}"
+    search_url = f"https://www.google.com/maps/search/{search_query.replace(' ', '+')}"
+    
+    print(f"🌐 Hedef: {search_query} aratılıyor...")
     await page.goto(search_url)
     await page.wait_for_timeout(5000)
-    
-    # Derin kaydırma ve veri toplama (Önceki mesajdaki Buldozer mantığı)
-    # ...
+
+    # 9 VERİ ENGELİNİ KIRAN BULDOZER SCROLL
+    try:
+        await page.click("div[role='feed']", timeout=5000)
+    except: pass
+
+    print("⏬ Liste derinlemesine kaydırılıyor...")
+    for _ in range(15): # Daha fazla sonuç için 15 kez kaydır
+        await page.mouse.wheel(0, 10000)
+        await asyncio.sleep(2)
+
+    listings = await page.query_selector_all('a.hfpxzc')
+    print(f"📊 {len(listings)} potansiyel işletme bulundu. Yeni olanlar taranıyor...")
+
+    for item in listings[:100]: # Tek seferde en fazla 100 yeni veri
+        try:
+            name = await item.get_attribute("aria-label")
+            if not name or name in existing_names: continue
+
+            await item.click()
+            await page.wait_for_timeout(2500) # Detayların yüklenmesi
+
+            address = "Yok"
+            phone = "Yok"
+            try: address = await page.locator("button[data-item-id='address']").inner_text()
+            except: pass
+            try: phone = await page.locator("button[data-item-id*='phone:tel:']").inner_text()
+            except: pass
+
+            results.append({
+                "İşletme Adı": name,
+                "Telefon": phone,
+                "Adres": address,
+                "Bölge": f"{DISTRICT}/{CITY}",
+                "Tarih": datetime.now().strftime('%Y-%m-%d %H:%M')
+            })
+            existing_names.add(name)
+            print(f"✅ Yeni: {name}")
+        except: continue
     return results
 
 async def main():
     old_data = load_db()
-    existing_names = {item["İşletme Adı"] for item in old_data}
+    existing_names = {item["İşletme Adı"] for item in old_data if "İşletme Adı" in item}
     
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=True)
-        page = await browser.new_page()
+        # Türkçe sonuçlar için locale ayarı
+        context = await browser.new_context(locale="tr-TR", user_agent="Mozilla/5.0...")
+        page = await context.new_page()
         
-        # KAYNAK 1: Google Maps
+        # Google Maps Taraması
         new_leads = await scrape_google_maps(page, existing_names)
         
-        # (İstersen buraya KAYNAK 2: Sarı Sayfalar vb. modüllerini ekleyebilirsin)
+        # Verileri Birleştir
+        final_data = old_data + new_leads
         
-        for item in new_leads:
-            item['Tarih'] = datetime.now().strftime('%Y-%m-%d %H:%M')
-            old_data.append(item)
-            
         await browser.close()
         
-    # Veritabanını ve Dashboard'u güncelle
+    # Dosyaları Güncelle
     with open(DB_FILE, "w", encoding="utf-8") as f:
-        json.dump(old_data, f, ensure_ascii=False, indent=4)
+        json.dump(final_data, f, ensure_ascii=False, indent=4)
     
-    generate_dashboard(old_data)
-    pd.DataFrame(old_data).to_excel("leads_output.xlsx", index=False)
+    generate_dashboard(final_data)
+    pd.DataFrame(final_data).to_excel("leads_output.xlsx", index=False)
+    print(f"🏁 Bitti! Toplam veritabanı: {len(final_data)} kayıt.")
 
 if __name__ == "__main__":
     asyncio.run(main())
