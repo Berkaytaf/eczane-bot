@@ -1,0 +1,4 @@
+on:
+  workflow_dispatch: # Bu satır yoksa buton görünmez!
+  schedule:
+    - cron: '0 0 * * *' # Bu da otomatik çalışma ayarı
