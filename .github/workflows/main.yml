@@ -1,14 +1,18 @@
-name: 🚀 Lead Gen Master (Multi-Source & Dashboard)
+name: 🚀 Lead Gen Master (İlçe Bazlı & Dashboard)
 
 on:
   workflow_dispatch:
     inputs:
       sehir:
-        description: 'Hangi Şehir? (Örn: Istanbul)'
+        description: 'Şehir (Örn: Istanbul)'
         required: true
         default: 'Istanbul'
+      ilce:
+        description: 'İlçe (Örn: Kadikoy)'
+        required: true
+        default: 'Kadikoy'
       kategori:
-        description: 'Ne Arıyoruz? (Örn: Eczane, Restoran, HVAC)'
+        description: 'Kategori (Örn: Eczane, Restoran, HVAC)'
         required: true
         default: 'Eczane'
   schedule:
@@ -36,14 +40,19 @@ jobs:
           playwright install --with-deps chromium
 
       - name: 🤖 Botu Ateşle
-        run: python pro_scraper.py "${{ github.event.inputs.sehir || 'Istanbul' }}" "${{ github.event.inputs.kategori || 'Eczane' }}"
+        # 3 Girdi gönderiyoruz: Şehir, İlçe, Kategori
+        run: |
+          python pro_scraper.py \
+          "${{ github.event.inputs.sehir || 'Istanbul' }}" \
+          "${{ github.event.inputs.ilce || 'Kadikoy' }}" \
+          "${{ github.event.inputs.kategori || 'Eczane' }}"
 
       - name: 📊 Dashboard & Veriyi Repoya Kaydet
         run: |
           git config --global user.name "LeadGenBot"
           git config --global user.email "bot@github.com"
           git add database.json index.html leads_output.xlsx || echo "Dosya yok"
-          git commit -m "✅ Veri İndeksi Güncellendi: $(date)" || echo "Değişiklik yok"
+          git commit -m "✅ Veri Güncellendi: ${{ github.event.inputs.ilce }} - $(date)" || echo "Değişiklik yok"
           git push || echo "Push yapılamadı"
 
       - name: 📥 Excel Dosyasını Hazırla (Artifact)
