@@ -698,5 +698,691 @@
         "Adres": "\nYenikent Aile, Süleymaniye Mahallesi Bilal'i Habeş Cami Altı, Ispartakule Cd. No:194 D:1, 34510 Esenyurt/İstanbul, Türkiye",
         "Bölge": "esenyurt/Istanbul",
         "Tarih": "2026-02-08 18:04"
+    },
+    {
+        "İşletme Adı": "Sahil Eczanesi",
+        "Telefon": "\n+90 552 577 44 66",
+        "Adres": "\nFenerbahçe, Operatör Cemil Topuzlu Cd. Emek Apt No:39, 34000 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:27"
+    },
+    {
+        "İşletme Adı": "Bahariye Cadde Eczanesi",
+        "Telefon": "\n+90 216 550 53 02",
+        "Adres": "\nOsmanağa, Gen. Asım Gündüz Caddesi No:17/C, 34734 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:27"
+    },
+    {
+        "İşletme Adı": "Simirna Eczanesi",
+        "Telefon": "\n+90 216 602 10 32",
+        "Adres": "\nMerdivenköy, Merdivenköy Cd No:29, 34732 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:27"
+    },
+    {
+        "İşletme Adı": "ELİZYA ECZANESİ",
+        "Telefon": "\n+90 216 602 10 32",
+        "Adres": "\nMerdivenköy, Merdivenköy Cd No:29, 34732 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:27"
+    },
+    {
+        "İşletme Adı": "Bahariye Yavuz Eczanesi",
+        "Telefon": "\n+90 216 602 10 32",
+        "Adres": "\nMerdivenköy, Merdivenköy Cd No:29, 34732 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:27"
+    },
+    {
+        "İşletme Adı": "Bilen Eczanesi",
+        "Telefon": "\n+90 216 602 10 32",
+        "Adres": "\nMerdivenköy, Merdivenköy Cd No:29, 34732 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:27"
+    },
+    {
+        "İşletme Adı": "Caddebostan Nar Eczanesi - Ecz. Sibel Ozan",
+        "Telefon": "\n+90 216 208 59 94",
+        "Adres": "\nKozyatağı, Kaya Sultan Sokağı 44/D, 34170 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:27"
+    },
+    {
+        "İşletme Adı": "Şifa Eczanesi",
+        "Telefon": "\n+90 532 256 64 53",
+        "Adres": "\nDumlupınar, Mektep Sk. No: 16/D, 34720 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:27"
+    },
+    {
+        "İşletme Adı": "Yeni Kadıköy Eczanesi",
+        "Telefon": "\n+90 216 515 65 15",
+        "Adres": "\nOsmanağa, Reşitefendi Sok. No:70/A, 34714 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:27"
+    },
+    {
+        "İşletme Adı": "Tuğba Karaca Eczanesi",
+        "Telefon": "\n+90 216 566 11 91",
+        "Adres": "\nMerdivenköy, Şair Arşi Cd. No:11 A, 34732 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:27"
+    },
+    {
+        "İşletme Adı": "Sönmez Eczanesi",
+        "Telefon": "\n+90 216 357 05 27",
+        "Adres": "\n19 Mayıs, Şemsettin Günaltay Cd. No:188 D:A, 34736 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:28"
+    },
+    {
+        "İşletme Adı": "HÜRRİYET ECZANESİ",
+        "Telefon": "\n+90 216 330 65 00",
+        "Adres": "\nRasimpaşa, Rıhtım Cd. 64/A, 34734 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:28"
+    },
+    {
+        "İşletme Adı": "Zeplin Eczanesi",
+        "Telefon": "\n+90 533 925 34 00",
+        "Adres": "\nOsmanağa, Serasker Cd. No:122/B, 34714 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:28"
+    },
+    {
+        "İşletme Adı": "Köşk Eczanesi",
+        "Telefon": "\n+90 216 428 41 43",
+        "Adres": "\nHasanpaşa, Uzunçayır Cd. No:15, 34722 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:28"
+    },
+    {
+        "İşletme Adı": "Kadıköy Çarşı Eczanesi",
+        "Telefon": "\n+90 216 338 48 38",
+        "Adres": "\nCaferağa, Tavus Sk. 18/b, 34710 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:28"
+    },
+    {
+        "İşletme Adı": "MERKEZ ECZANESİ (MERDİVENKÖY)",
+        "Telefon": "\n+90 216 565 68 13",
+        "Adres": "\nMerdivenköy, Ressam Salih Erimez Cad No:7C, 34732 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:28"
+    },
+    {
+        "İşletme Adı": "Moda Eczanesi",
+        "Telefon": "\n+90 534 088 19 84",
+        "Adres": "\nCaferağa, Moda Cd. 83B, 34710 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:28"
+    },
+    {
+        "İşletme Adı": "Akdeniz Eczanesi",
+        "Telefon": "\n+90 534 088 19 84",
+        "Adres": "\nCaferağa, Moda Cd. 83B, 34710 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:28"
+    },
+    {
+        "İşletme Adı": "Çarşı Zırhlıoğlu Eczanesi",
+        "Telefon": "\n+90 534 088 19 84",
+        "Adres": "\nCaferağa, Moda Cd. 83B, 34710 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:28"
+    },
+    {
+        "İşletme Adı": "Eczane Reva",
+        "Telefon": "\n+90 534 088 19 84",
+        "Adres": "\nCaferağa, Moda Cd. 83B, 34710 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:28"
+    },
+    {
+        "İşletme Adı": "SERASKER CADDE ECZANESİ",
+        "Telefon": "\n+90 534 088 19 84",
+        "Adres": "\nCaferağa, Moda Cd. 83B, 34710 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:28"
+    },
+    {
+        "İşletme Adı": "eczane Serra",
+        "Telefon": "\n+90 216 346 44 82",
+        "Adres": "\nRasimpaşa, Halitağa Cd. No:58, 34716 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:28"
+    },
+    {
+        "İşletme Adı": "Eczane Altıyol Merkez",
+        "Telefon": "\n+90 216 347 42 85",
+        "Adres": "\nOsmanağa, Söğütlüçeşme Cad. NO:70-72, 34714 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:28"
+    },
+    {
+        "İşletme Adı": "Kadıköy Eczanesi",
+        "Telefon": "\n+90 543 899 92 44",
+        "Adres": "\n19 Mayıs, Kaptan Arif Sok. no:72A, 34736 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:28"
+    },
+    {
+        "İşletme Adı": "Kent Eczanesi (Kent Plus Kadıköy)",
+        "Telefon": "\n+90 216 969 42 48",
+        "Adres": "\nKENT PLUS KADIKOY, Eğitim, Abdibey Sok. No:24/BH, 34722 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:28"
+    },
+    {
+        "İşletme Adı": "Evranos Eczanesi",
+        "Telefon": "\n+90 216 566 54 57",
+        "Adres": "\nGöztepe, Nadirağa Sk. No:11/A, 34730 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:28"
+    },
+    {
+        "İşletme Adı": "Kozmos Eczanesi",
+        "Telefon": "\n+90 216 803 75 36",
+        "Adres": "\nCaferağa, Leylek Sok. 20 B, 34710 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:28"
+    },
+    {
+        "İşletme Adı": "Mandarin Eczanesi",
+        "Telefon": "\n+90 501 082 84 80",
+        "Adres": "\nFikirtepe Mah. Mandıra Cad. Mandarins No:11H, 34720 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:28"
+    },
+    {
+        "İşletme Adı": "Venüs Eczanesi",
+        "Telefon": "\n+90 216 541 03 04",
+        "Adres": "\nFenerbahçe mh. Bağdat cd. Temel apt, no:146/A, 34726 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:28"
+    },
+    {
+        "İşletme Adı": "Lokum Eczanesi / Pharmacy / Apotheke / аптека",
+        "Telefon": "\n+90 216 348 12 13",
+        "Adres": "\nFenerbahçe, Lalezar Sk. No:5/A, 34726 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:28"
+    },
+    {
+        "İşletme Adı": "MERKEZ NUR ECZANESI",
+        "Telefon": "\n+90 216 346 81 51",
+        "Adres": "\nOsmanağa, Söğütlüçeşme Cad. No:67, 34715 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:28"
+    },
+    {
+        "İşletme Adı": "Zeytin Eczanesi",
+        "Telefon": "Yok",
+        "Adres": "\nRasimpaşa, Misak-ı Milli Sok. 81b, 34716 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:29"
+    },
+    {
+        "İşletme Adı": "Birsu Eczanesi",
+        "Telefon": "\n+90 216 565 64 41",
+        "Adres": "\nCaferağa, Moda Cd. 50/B, 34710 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:29"
+    },
+    {
+        "İşletme Adı": "Sağlık Eczanesi",
+        "Telefon": "\n+90 216 348 54 54",
+        "Adres": "\nOsmanağa, Kuşdili Cd. No:45/A, 34714 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:29"
+    },
+    {
+        "İşletme Adı": "GÖKTÜRK ECZANESİ (GÖKTÜRK PHARMACY)",
+        "Telefon": "\n+90 216 325 50 17",
+        "Adres": "\nAcıbadem, Sarayardı Cd. No: 1/A, 34660 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:29"
+    },
+    {
+        "İşletme Adı": "19 Mayıs Eczanesi",
+        "Telefon": "\n+90 216 380 77 66",
+        "Adres": "\n19 Mayıs, Hilmi Paşa Sk no:11B, 34736 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:29"
+    },
+    {
+        "İşletme Adı": "Moda Zırhlıoğlu Eczanesi",
+        "Telefon": "\n+90 216 449 19 75",
+        "Adres": "\nCaferağa, Moda Cd. No:193 D:1, 34710 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:29"
+    },
+    {
+        "İşletme Adı": "Emre eczanesi",
+        "Telefon": "\n+90 216 567 02 50",
+        "Adres": "\nuğur apartmanı, Merdivenköy, Merdivenköy Cd no : 27/A, 34752 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:29"
+    },
+    {
+        "İşletme Adı": "Halitağa Cadde Eczanesi",
+        "Telefon": "\n+90 216 575 78 08",
+        "Adres": "\nRasimpaşa, Halitağa Cd. 36/A, 34716 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:29"
+    },
+    {
+        "İşletme Adı": "Haydarpaşa Anadolu Eczanesi",
+        "Telefon": "\n+90 216 339 60 45",
+        "Adres": "\nKoşuyolu, Dr. Eyüp Aksoy Cd. No:37/B, 34710 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:29"
+    },
+    {
+        "İşletme Adı": "VİTAMİN ECZANESİ",
+        "Telefon": "\n+90 216 349 33 34",
+        "Adres": "\nZühtüpaşa, Recep Peker Cd. NO:32 D:2a, 34724 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:29"
+    },
+    {
+        "İşletme Adı": "Nar Ağacı Eczanesi",
+        "Telefon": "\n+90 216 804 10 02",
+        "Adres": "\nFeneryolu, Fahrettin Kerim Gökay Cd No:68 A, 34724 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:29"
+    },
+    {
+        "İşletme Adı": "Feneryolu Eczanesi",
+        "Telefon": "\n+90 216 345 52 26",
+        "Adres": "\nFeneryolu, Gazi Muhtar Paşa Sk. No:34, 34724 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:29"
+    },
+    {
+        "İşletme Adı": "Gülnur Eczanesi",
+        "Telefon": "\n+90 216 411 48 45",
+        "Adres": "\n19 Mayıs, Bayar Cd. no : 41 D:1b, 34736 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:30"
+    },
+    {
+        "İşletme Adı": "Ocak Eczanesi",
+        "Telefon": "\n+90 216 449 96 27",
+        "Adres": "\nRasimpaşa, Rıhtım Cd. No:52, 34716 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:30"
+    },
+    {
+        "İşletme Adı": "Akın Eczanesi",
+        "Telefon": "\n+90 216 338 66 64",
+        "Adres": "\nRasimpaşa, Söğütlüçeşme Cad. No:121, 34716 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:30"
+    },
+    {
+        "İşletme Adı": "Ayşe Lerzan Eczanesi",
+        "Telefon": "\n+90 216 338 40 63",
+        "Adres": "\nOsmanağa, Söğütlüçeşme Cad. No: 6/A, 34714 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:30"
+    },
+    {
+        "İşletme Adı": "Yeni Nesil Eczanesi",
+        "Telefon": "\n+90 216 357 03 04",
+        "Adres": "\nCaddebostan, Tanzimat Sk. No:13/AKadıköy, 34728 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:30"
+    },
+    {
+        "İşletme Adı": "Eczane Armanç",
+        "Telefon": "\n+90 216 519 44 49",
+        "Adres": "\nFikirtepe, Rüzgar Sk. No:44/b-a, 34720 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:30"
+    },
+    {
+        "İşletme Adı": "Mungan Eczanesi",
+        "Telefon": "\n+90 216 939 11 37",
+        "Adres": "\nKozyatağı, Kaya Sultan Sokağı No:21/b, 34742 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:30"
+    },
+    {
+        "İşletme Adı": "AYBÜKE ECZANESİ",
+        "Telefon": "\n+90 216 339 78 82",
+        "Adres": "\nHasanpaşa, Arzu Sk. No:1, 34722, 34722 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:30"
+    },
+    {
+        "İşletme Adı": "Mühürdar Eczanesi",
+        "Telefon": "\n+90 216 405 22 91",
+        "Adres": "\nCaferağa, Mühürdar Cd. 48/A, 34710 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:30"
+    },
+    {
+        "İşletme Adı": "ECZANE Sabuncu",
+        "Telefon": "\n+90 216 345 91 15",
+        "Adres": "\nCaferağa, Nail Bey Sk. No:35, 34710 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:30"
+    },
+    {
+        "İşletme Adı": "Flora Eczanesi",
+        "Telefon": "\n+90 216 416 27 79",
+        "Adres": "\n19 Mayıs, Mercan Sk. No:5/A, 34736 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:30"
+    },
+    {
+        "İşletme Adı": "Dünya Eczanesi",
+        "Telefon": "\n+90 216 567 93 02",
+        "Adres": "\nFeneryolu, Yıldıray Sk. No:2/B, 34724 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:30"
+    },
+    {
+        "İşletme Adı": "KIZILTOPRAK ECZANESİ TESİS TARİHİ 1880",
+        "Telefon": "\n+90 216 336 16 01",
+        "Adres": "\nFenerbahçe, Bağdat Cad. 54/A, 34726 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:30"
+    },
+    {
+        "İşletme Adı": "Irmak Eczanesi",
+        "Telefon": "\n+90 216 336 31 00",
+        "Adres": "\nZühtüpaşa, Recep Peker Cd. 34/A, 34724 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:30"
+    },
+    {
+        "İşletme Adı": "NAUTILUS ECZANE",
+        "Telefon": "\n+90 216 339 39 29",
+        "Adres": "\nTepe Nautilus, Acıbadem, Fatih Sk. No:1, 34718 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:30"
+    },
+    {
+        "İşletme Adı": "Eczane Bahariye",
+        "Telefon": "\n+90 216 336 74 05",
+        "Adres": "\nCaferağa, Sakız Gülü Sk. 31d, 34710 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:30"
+    },
+    {
+        "İşletme Adı": "DOĞRUYOL ECZANESİ",
+        "Telefon": "\n+90 216 566 78 60",
+        "Adres": "\nFeneryolu, Hüseyin Hüsnü Paşa Sk. No:3 D:B, 34724 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:30"
+    },
+    {
+        "İşletme Adı": "Lotus 14 eczanesi",
+        "Telefon": "\n+90 216 450 50 40",
+        "Adres": "\nOsmanağa, Gen. Asım Gündüz Caddesi no:16A, 34714 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:30"
+    },
+    {
+        "İşletme Adı": "Aktürk Eczanesi Göztepe",
+        "Telefon": "\n+90 216 478 13 13",
+        "Adres": "\nGöztepe, Rıdvanpaşa Sok. No:5/A, 34730 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:30"
+    },
+    {
+        "İşletme Adı": "Çiçek Eczanesi",
+        "Telefon": "\n+90 216 369 00 19",
+        "Adres": "\nSahrayı Cedit, Kireçhaneler Sk. No:14/B, 34734 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:30"
+    },
+    {
+        "İşletme Adı": "Elmas Eczanesi",
+        "Telefon": "\n+90 216 405 19 00",
+        "Adres": "\nRasimpaşa, Karakolhane Cd. No:80, 34716 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:30"
+    },
+    {
+        "İşletme Adı": "ECZANE YUNUS/PHARMACY YUNUS",
+        "Telefon": "\n+90 216 565 94 88",
+        "Adres": "\nÖZEL Göztepe hastanesi, Merdivenköy caddesi, karşısı no:6/B, 34732 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:30"
+    },
+    {
+        "İşletme Adı": "Eczane Güven",
+        "Telefon": "\n+90 216 347 36 66",
+        "Adres": "\nOsmanağa, Talimhane Sk. No:5, 34714 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:31"
+    },
+    {
+        "İşletme Adı": "Seval Eczanesi",
+        "Telefon": "\n+90 216 467 27 76",
+        "Adres": "\nSahrayı Cedit, İmam Ramiz Sokağı No:14, 34734 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:31"
+    },
+    {
+        "İşletme Adı": "Hızır Bey Eczanesi",
+        "Telefon": "\n+90 507 661 71 85",
+        "Adres": "\nHACI HASANBAŞ APT, Dumlupınar, Hızırbey Cd. no:207/B, 34720 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:31"
+    },
+    {
+        "İşletme Adı": "Taniş Eczanesi",
+        "Telefon": "\n+90 216 411 23 35",
+        "Adres": "\n19 Mayıs, Şemsettin Günaltay Cd. 20/A, 34736 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:31"
+    },
+    {
+        "İşletme Adı": "Melis Altınkaya Eczanesi",
+        "Telefon": "\n+90 216 357 20 30",
+        "Adres": "\nFenerbahçe, Fuatpaşa Cd No:20, 34726 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:31"
+    },
+    {
+        "İşletme Adı": "Eczane Yurt",
+        "Telefon": "\n+90 216 428 90 42",
+        "Adres": "\nİbrahimağa Mah, Dr. Eyüp Aksoy Cd. 33/a, 34718 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:31"
+    },
+    {
+        "İşletme Adı": "Nurhan Eczanesi",
+        "Telefon": "\n+90 216 346 69 89",
+        "Adres": "\nCaferağa, Güneşlibahçe Sok. 49/A, 34710 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:31"
+    },
+    {
+        "İşletme Adı": "ECZANE MELİS",
+        "Telefon": "\n+90 216 355 06 70",
+        "Adres": "\nKadıköy Söğütlüçeşme caddesi, Yavuztürk Sk. 37B, 34726 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:31"
+    },
+    {
+        "İşletme Adı": "Lale Eczanesi (Fatih Lale)",
+        "Telefon": "\n+90 216 565 98 22",
+        "Adres": "\nFeneryolu, Fahrettin Kerim Gökay Cd NO:136/A, 34724 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:31"
+    },
+    {
+        "İşletme Adı": "Metin Çiçek Eczanesi",
+        "Telefon": "\n+90 216 345 52 22",
+        "Adres": "\nCaferağa, Gen. Asım Gündüz Caddesi No:69/A, 34710 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:31"
+    },
+    {
+        "İşletme Adı": "ÇALIŞ ECZANESİ",
+        "Telefon": "\n+90 216 566 58 00",
+        "Adres": "\nDumlupınar, Hızırbey Cd. 207-A, 34720 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:31"
+    },
+    {
+        "İşletme Adı": "Mavi Eczane",
+        "Telefon": "\n+90 216 478 43 58",
+        "Adres": "\nCaddebostan Opr.Dr. Cemil Topuzlu Caddesi No:109A (Plajyolu Sokak bitiminde, sağda. Cemil Topuzlu caddesi üzerinde, 34728 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:31"
+    },
+    {
+        "İşletme Adı": "Azim Eczanesi",
+        "Telefon": "\n+90 216 336 61 63",
+        "Adres": "\nOsmanağa, Süleyman Paşa Sk. No:6, 34714 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:31"
+    },
+    {
+        "İşletme Adı": "Kadıköy Merkez Eczanesi",
+        "Telefon": "\n+90 534 648 20 80",
+        "Adres": "\nCaferağa, Muvakkıthane Cd. No:3, 34710 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:31"
+    },
+    {
+        "İşletme Adı": "Acıbadem Cadde Eczanesi",
+        "Telefon": "\n+90 216 784 69 98",
+        "Adres": "\nAcıbadem, Acıbadem Cd. no:47 A, 34718 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:31"
+    },
+    {
+        "İşletme Adı": "Kadir Eczanesi",
+        "Telefon": "\n+90 216 629 55 80",
+        "Adres": "\nGöztepe, Tütüncü Mehmet Efendi Cd. No:55C, 34730 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:31"
+    },
+    {
+        "İşletme Adı": "Sokak Eczanesi",
+        "Telefon": "\n+90 216 337 67 37",
+        "Adres": "\nRasimpaşa, Karakolhane Cd. No:33/A, 34716 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:31"
+    },
+    {
+        "İşletme Adı": "Şebnem Eczanesi",
+        "Telefon": "\n+90 216 325 88 98",
+        "Adres": "\nHasanpaşa, İkbaliye Sk., 34722 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:31"
+    },
+    {
+        "İşletme Adı": "Nihan Er Eczanesi Pharmacy",
+        "Telefon": "\n+90 216 551 00 06",
+        "Adres": "\nFikirtepe, Mandıra Cd. No: 34/B, 34720 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:31"
+    },
+    {
+        "İşletme Adı": "ECZANE TERMİNAL KADIKÖY",
+        "Telefon": "\n+90 216 519 34 84",
+        "Adres": "\nHasanpaşa Mah. Kurbağalıdere Cad, Terminal Kadıköy'ün içerisinde, Marmaraya doğru giderken, Kahve Dünyası'nın yanında, Terminal No:2/8 İç Kapı No:3, 34722 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:31"
+    },
+    {
+        "İşletme Adı": "Şeniz Eczanesi",
+        "Telefon": "\n+90 216 566 10 06",
+        "Adres": "\nMerdivenköy, Hızır Reis Sk., 34732 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:31"
+    },
+    {
+        "İşletme Adı": "Derman Eczanesi",
+        "Telefon": "\n+90 216 550 60 02",
+        "Adres": "\nRasimpaşa, Nemlizade Sk. 68/A, 34716 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:31"
+    },
+    {
+        "İşletme Adı": "Yeni İstanbul Eczanesi",
+        "Telefon": "\n+90 216 416 61 71",
+        "Adres": "\nSahrayı Cedit, Bayar Cd. No:5 D:1A, 34734 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:31"
+    },
+    {
+        "İşletme Adı": "Sevda eczanesi",
+        "Telefon": "\n+90 216 514 60 79",
+        "Adres": "\n19 Mayıs, Gürsoylu Sokağı no:32 D:34b, 34744 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:32"
+    },
+    {
+        "İşletme Adı": "Ezel Eczanesi",
+        "Telefon": "\n+90 216 338 07 02",
+        "Adres": "\nZühtüpaşa, Itri Dede Sok. 23/A, 34724 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:32"
+    },
+    {
+        "İşletme Adı": "DURAK ECZANESİ KADIKÖY",
+        "Telefon": "\n+90 534 662 81 97",
+        "Adres": "\nRasimpaşa Mah Rıhtım Cad N0:30 Sakıp Bey Apt Zemin Kat:1, 34716 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:32"
+    },
+    {
+        "İşletme Adı": "Sarayardı Eczanesi",
+        "Telefon": "\n+90 216 428 54 80",
+        "Adres": "\nAcıbadem, Sarayardı Cd. No:5 D:C, 34660 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:32"
+    },
+    {
+        "İşletme Adı": "VERDA ECZANESİ",
+        "Telefon": "\n+90 216 337 19 94",
+        "Adres": "\nCaferağa, Gen. Asım Gündüz Caddesi NO:104/A, 34710 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:32"
+    },
+    {
+        "İşletme Adı": "Lacivert Eczanesi",
+        "Telefon": "\n+90 533 613 21 83",
+        "Adres": "\nFeneryolu, Bağdat Cad. No:93, 34710 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:32"
+    },
+    {
+        "İşletme Adı": "Pınar Deniz Eczanesi",
+        "Telefon": "\n+90 546 199 11 41",
+        "Adres": "\nTEKNİK YAPI CONCORD İSTANBUL, Dumlupınar, Yumurtacı Abdi Bey Cd. C BLOK, 34730 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:32"
+    },
+    {
+        "İşletme Adı": "Toprak Eczanesi",
+        "Telefon": "\n+90 541 899 97 99",
+        "Adres": "\nMerdivenköy Mahallesi Yumurtacı Abdi Bey Cad. B Blok No:5 Dikyol sok. No.2A (Business Istanbul) B Blok Daire No:5, 34732 Kadıköy, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:32"
+    },
+    {
+        "İşletme Adı": "Cumhuriyet Eczanesi",
+        "Telefon": "\n+90 216 909 34 23",
+        "Adres": "\nGöztepe, Tütüncü Mehmet Efendi Cd. No:13 D:A, 34730 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:32"
+    },
+    {
+        "İşletme Adı": "Naturel Eczanesi",
+        "Telefon": "\n+90 216 909 34 23",
+        "Adres": "\nGöztepe, Tütüncü Mehmet Efendi Cd. No:13 D:A, 34730 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-02-09 01:32"
     }
 ]
