@@ -2364,5 +2364,19 @@
         "Adres": "\nKoşuyolu, Tekin Sk. 7C D:B, 34718 Kadıköy/İstanbul, Türkiye",
         "Bölge": "Kadikoy/Istanbul",
         "Tarih": "2026-03-12 01:20"
+    },
+    {
+        "İşletme Adı": "Terece Eczanesi",
+        "Telefon": "\n+90 216 360 50 59",
+        "Adres": "\nCaddebostan, Bağdat Cad. No:350/A, 34728 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-03-13 01:23"
+    },
+    {
+        "İşletme Adı": "Melis Hanlı Eczanesi",
+        "Telefon": "\n+90 551 591 77 97",
+        "Adres": "\nErenköy, Ömer Paşa Sk. No:54A, 34738 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-03-13 01:23"
     }
 ]
