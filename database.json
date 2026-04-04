@@ -2602,5 +2602,19 @@
         "Adres": "\nBostancı, Bağdat Cad. No: 538A, 34744 Kadıköy/İstanbul, Türkiye",
         "Bölge": "Kadikoy/Istanbul",
         "Tarih": "2026-04-02 01:31"
+    },
+    {
+        "İşletme Adı": "Mahur Eczanesi",
+        "Telefon": "\n+90 216 771 27 85",
+        "Adres": "\nFenerbahçe mah. Bağdat cad, Mahur Sk. No:15/B, 34726 Kadıköy, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-04-04 01:27"
+    },
+    {
+        "İşletme Adı": "Haşanpaşa Eczanesi",
+        "Telefon": "\n+90 216 370 75 25",
+        "Adres": "\nHasanpaşa, Kurbağalıdere Cd. 68/B, 34722 Kadıköy/İstanbul, Türkiye",
+        "Bölge": "Kadikoy/Istanbul",
+        "Tarih": "2026-04-04 01:27"
     }
 ]
